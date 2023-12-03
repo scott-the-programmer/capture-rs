@@ -1,8 +1,7 @@
 use pnet::datalink::{self, NetworkInterface};
-use pnet::packet::{ethernet::EthernetPacket, Packet};
+use pnet::packet::ethernet::EthernetPacket;
 use tui::backend::CrosstermBackend;
-use tui::layout::{Constraint, Direction, Layout};
-use tui::widgets::{Block, Borders, Widget};
+use tui::widgets::{Block, Borders };
 use tui::Terminal;
 
 use std::env;
